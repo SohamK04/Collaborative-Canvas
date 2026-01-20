@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: #eee;
+}
+
+#canvasWrapper {
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  touch-action: none;
+}
+
+#cursorCanvas {
+  pointer-events: none;
+}
+
+#status {
+  margin-left: 10px;
+  color: #555;
+}
